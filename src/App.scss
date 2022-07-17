@@ -8,3 +8,9 @@ body {
 .app-container {
 	padding: 40px 77px;
 }
+
+@media (max-width: 500px) {
+	.app-container {
+		padding: 20px 24px;
+	}
+}
