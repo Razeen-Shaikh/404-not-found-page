@@ -14,7 +14,7 @@
 		display: grid;
 		margin-top: 150px;
 		margin-bottom: 100px;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 		font-family: "Space Mono", sans-serif;
 
 		.img {
@@ -58,23 +58,23 @@
 	.not-found {
 		&__container {
 			.heading {
-				font-size: 48px;
-				margin-top: 77px;
+				font-size: 48px !important;
+				margin-top: 77px !important;
 			}
 			.info {
-				font-size: 18px;
+				font-size: 18px !important;
 			}
 			.img {
-				width: 300px;
-				height: 250px;
+				width: 300px !important;
+				height: 250px !important;
 			}
 			.back {
-				font-size: 14px;
+				font-size: 14px !important;
 			}
 		}
 
 		&__created-by {
-			font-size: 14px;
+			font-size: 14px !important;
 		}
 	}
 }
